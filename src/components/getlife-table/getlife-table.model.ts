@@ -1,3 +1,7 @@
+import { ITableColumn } from "../../App.model";
+
 export interface GetlifeTableProps {
-    name: string;
+    columns: ITableColumn[];
+    dataSource: Object[];
+    showRows?: number;
 }
